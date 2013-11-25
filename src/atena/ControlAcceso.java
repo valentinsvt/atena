@@ -20,7 +20,9 @@ import java.awt.image.DataBufferByte;
 import javax.swing.ImageIcon;
 import javax.swing.Timer;
 
-
+/*
+Prueba para la tonteria de git desde netbeans..............
+*/
 /**
  *
  * @author svt
