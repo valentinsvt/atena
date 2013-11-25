@@ -190,8 +190,8 @@ public class ControlAcceso extends javax.swing.JPanel {
             boolean[] matched = new boolean[1];
             matched[0] = false;
 
-            Huella[] h = new Huella[3];
-            for (int i = 13; i < 16; i++) {
+            Huella[] h = new Huella[4];
+            for (int i = 13; i < 17; i++) {
                 h[i - 13] = new Huella(i);
                 System.out.println("VERIFICANDO!    h " + i + "  --> " + h[i - 13].getId());
                 iError = fplib.MatchTemplate(h[i - 13].getData(), regMin1, secuLevel, matched);
